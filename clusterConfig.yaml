@@ -17,7 +17,7 @@ managedNodeGroups:
       nodegroup-role: worker
 
   - name: managed-ng-public2
-    instanceType: t2.medium
+    instanceType: m3.medium
     minSize: 2
     desiredCapacity: 3
     maxSize: 4
