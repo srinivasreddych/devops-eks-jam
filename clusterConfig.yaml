@@ -11,7 +11,6 @@ managedNodeGroups:
     minSize: 2
     desiredCapacity: 3
     maxSize: 4
-    availabilityZones: ["us-west-2a", "us-west-2b", "us-west-2c", "us-west-2d"]
     volumeSize: 20
     labels: {tier: frontend}
     tags:
@@ -22,7 +21,6 @@ managedNodeGroups:
     minSize: 2
     desiredCapacity: 3
     maxSize: 4
-    availabilityZones: ["us-west-2a", "us-west-2b", "us-west-2c", "us-west-2d"]
     volumeSize: 20
     labels: {tier: backend}
     tags:
