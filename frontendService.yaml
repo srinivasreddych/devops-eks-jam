@@ -9,4 +9,4 @@ spec:
       protocol: TCP
   type: LoadBalancer
   selector:
-    tier: frontend
+    tier: fronend
